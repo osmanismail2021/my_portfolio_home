@@ -7,7 +7,7 @@ export default function Intro() {
 
   useEffect(()=>{
     init(textRef.current, {
-      showCursor: false,
+      showCursor: true,
       strings:["Html5", "Css3", "Javascript", "Bootstrap", "React","React-Native", "Node.js", "MongoDB"],
     });
 
@@ -21,10 +21,17 @@ export default function Intro() {
           </div>
         </div>
         <div className="right">
-            <div className="wrapper">
-              <h2>Hello There, I'm</h2>
-              <h1>Osman ISMAIL</h1>
-              <h3>FrontEnd Developer <span ref={textRef}></span></h3>
+          <div className="wrapper">
+            <div class="box">
+              <div class="inner">
+                <span>Hello There</span>
+              </div>
+            <div class="inner">
+                <span>Hello There</span>
+            </div>
+          </div>
+              <h1 id="text3d">I'm Osman ISMAIL</h1>
+              <h3>FrontEnd Developer <span className="neon" ref={textRef}></span></h3>
             </div>
             <a href="#portfolio">
               <img src="assets/down-arrow.png" alt="" />
