@@ -22,16 +22,17 @@ export default function Intro() {
         </div>
         <div className="right">
           <div className="wrapper">
-            <div class="box">
-              <div class="inner">
+            <div className="box">
+              <div className="inner">
                 <span>Hello There</span>
               </div>
-            <div class="inner">
+            <div className="inner">
                 <span>Hello There</span>
             </div>
           </div>
               <h1 id="text3d">I'm Osman ISMAIL</h1>
               <h3>FrontEnd Developer <span className="neon" ref={textRef}></span></h3>
+              <a className="cv" href="#">Download CV</a>
             </div>
             <a href="#portfolio">
               <img src="assets/down-arrow.png" alt="" />
