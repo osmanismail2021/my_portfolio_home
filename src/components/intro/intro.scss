@@ -225,7 +225,11 @@
                                 }
 
                                 .cv{
+<<<<<<< HEAD
                                     margin-bottom: 180px;
+=======
+                                    margin-bottom: 230px;
+>>>>>>> 6b518c9200f8ff6529e0ad3a2c3ce6bd453ad537
                                     padding: 5px ;
                                     color: white;
                                     background-color: #2e1b01;
@@ -237,11 +241,14 @@
                                     border-radius: 5px;
                                     text-decoration: none;
 
+<<<<<<< HEAD
                                     @include mobile{
                                         margin-left: 50px;
                                         margin-bottom: 40px;
                                     }
 
+=======
+>>>>>>> 6b518c9200f8ff6529e0ad3a2c3ce6bd453ad537
 
                                 }
         
