@@ -6,27 +6,27 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
         <a href="#intro" className="logo">
-        <div class="stage">
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
+        <div className="stage">
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
+  <div className="layer"></div>
 </div>
 </a>
           

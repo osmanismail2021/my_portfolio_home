@@ -17,21 +17,23 @@ export default function Intro() {
     <div className='intro' id="intro">
         <div className="left">
         <div className="imgContainer">
-            <img src="assets/blackwitsaydam.png" alt="" />
+            <img className="vector" src="./assets/PikPng.com_paint-stroke-png_564412.png" alt="" />
+            <img className="osman" src="assets/blackwitsaydam.png" alt="" />
           </div>
         </div>
         <div className="right">
           <div className="wrapper">
-            <div class="box">
-              <div class="inner">
+            <div className="box">
+              <div className="inner">
                 <span>Hello There</span>
               </div>
-            <div class="inner">
+            <div className="inner">
                 <span>Hello There</span>
             </div>
           </div>
               <h1 id="text3d">I'm Osman ISMAIL</h1>
               <h3>FrontEnd Developer <span className="neon" ref={textRef}></span></h3>
+              <a className="cv" href="#">Download CV</a>
             </div>
             <a href="#portfolio">
               <img src="assets/down-arrow.png" alt="" />

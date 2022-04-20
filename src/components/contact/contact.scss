@@ -1,3 +1,77 @@
 .contact {
-    background-color: aquamarine;
+    background: rgba(206,188,155,1);
+    background: -moz-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(206,188,155,1)), color-stop(51%, rgba(85,63,50,1)), color-stop(100%, rgba(42,31,25,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
+    background: linear-gradient(135deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=1 );
+    display: flex;
+
+
+
+    .left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            font-size: 30px;
+        }
+
+        form{
+            width: 45%;
+            height: 45%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            input{
+                width: 380px;
+                height: 30px;
+                font-size: 14px;
+                border-radius: 10px;
+                border: none;
+            }
+
+            textarea{
+                width: 380px;
+                height: 250px;
+                font-size: 14px;
+                border-radius: 10px;
+                
+            }
+
+            button{
+                width: 150px;
+                height: 30px;
+                color: white;
+                background-color: rgb(34, 99, 196);
+                border: none;
+                border-radius: 10px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+        span{
+            color: aquamarine;
+        }
+
+    }
+
+    .right {
+
+
+        flex: 1;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+
+        }
+    }
 }
