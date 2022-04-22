@@ -59,11 +59,7 @@ useEffect(()=>{
         <div className="container">
             {data.map((d)=> (
           <div className="item">
-<<<<<<< HEAD
             <img
-=======
-            <img 
->>>>>>> 6b518c9200f8ff6529e0ad3a2c3ce6bd453ad537
             src={d.img}
             alt="" />
             <h3>{d.title}</h3>

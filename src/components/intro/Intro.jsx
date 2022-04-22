@@ -17,7 +17,7 @@ export default function Intro() {
     <div className='intro' id="intro">
         <div className="left">
         <div className="imgContainer">
-            <img className="vector" src="./assets/PikPng.com_paint-stroke-png_564412.png" alt="" />
+            <img className="vector" src="./assets/24144-6-vector-file.png" alt="" />
             <img className="osman" src="assets/blackwitsaydam.png" alt="" />
           </div>
         </div>

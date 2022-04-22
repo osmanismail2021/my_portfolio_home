@@ -32,7 +32,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           
           <div className="itemContainer">
             <Person className="icon" />
-            <span>+32 777 777</span>
+            <span>+32 492 07 56 63</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />

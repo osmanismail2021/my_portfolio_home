@@ -1,14 +1,14 @@
 @import "../../global.scss";
 
 .testimonials {
-    background: rgba(206,188,155,1);
-    background: -moz-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(206,188,155,1)), color-stop(51%, rgba(85,63,50,1)), color-stop(100%, rgba(42,31,25,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-    background: linear-gradient(135deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=1 );
+    background: rgb(130, 130, 134);
+  background: -moz-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(130, 130, 134)), color-stop(51%, rgb(55, 54, 59)), color-stop(100%,  rgb(11, 11, 12)));
+  background: -webkit-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: -o-linear-gradient(-45deg,rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: -ms-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: linear-gradient(135deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=1 );
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,13 +33,14 @@
             width: 250px;
             height: 70%;
             border-radius: 10px;
-            box-shadow: 0px 0px 20px -8px rgb(204, 216, 34);
+            box-shadow: 0px 0px 20px -8px rgb(243, 117, 44);
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             padding: 20px;
             transition: all 1s ease;
-            background-color: white;
+            color: antiquewhite;
+            background-color: rgb(48, 45, 45);
             
 
             &.featured{
@@ -59,8 +60,16 @@
                 
 
                 img{
-                    &.left,&.right{
-                        height: 25px;
+                    &.left{
+                        width: 50px;
+                        height: 50px;
+                        transform: rotate(90deg);
+
+                    }
+                    &.right{
+                        width: 40px;
+                        height: 40px;
+                       
                         
                     }
                     &.user{
@@ -75,7 +84,7 @@
             }
             .center{
                 padding: 10px;
-                background-color: rgb(238, 231, 233);
+                background-color: rgb(192, 82, 38);
                 border-radius: 10px;
             }
 
