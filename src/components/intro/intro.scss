@@ -24,17 +24,19 @@
         
 
         .imgContainer{
-            width: 700px;
+            width: 650px;
             height: 100vh;
             // clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
             // background-color: white;
             display: flex;
             align-items: flex-end;
-            margin-top: 20px;
-            margin-left: 60px;
+            margin-left: -20px;
+            margin-top: -12px;
+            
 
             @include mobile{
                 align-items: flex-start;
+                margin-left: 50px;
             }
             
             // img{
