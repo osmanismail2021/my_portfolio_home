@@ -10,12 +10,17 @@
   background: linear-gradient(135deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=1 );
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    
+    
 
     h1 {
         font-size: 50px;
+
+        @include mobile{
+            font-size: 20px;
+        }
     }
 
     .container {
@@ -26,9 +31,11 @@
         justify-content: center;
 
         @include mobile{
-            font-size: 20px;
+            flex-direction: row;
+            
         }
 
+        
         .card{
             width: 250px;
             height: 70%;
@@ -41,12 +48,23 @@
             transition: all 1s ease;
             color: antiquewhite;
             background-color: rgb(48, 45, 45);
+
+            @include mobile{
+                height: 160px;
+            }
+
+            
             
 
             &.featured{
                 width: 300px;
                 height: 75%;
                 margin: 0 30px;
+
+                @include mobile{
+                    width: 250px;
+                    height: 160px;
+                }
             }
 
             &:hover{

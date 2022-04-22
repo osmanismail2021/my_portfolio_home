@@ -1,6 +1,7 @@
 import "./intro.scss"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
+import cv from '../assets/OSMAN ISMAIL (9).pdf'
 
 export default function Intro() {
   const textRef = useRef();
@@ -33,7 +34,10 @@ export default function Intro() {
           </div>
               <h1 id="text3d">I'm Osman ISMAIL</h1>
               <h3>FrontEnd Developer <span className="neon" ref={textRef}></span></h3>
-              <a className="cv" href="#">Download CV</a>
+              <a className="cv" 
+                href={cv} 
+                download={cv} 
+                rel="noopener noreferrer">Download CV</a>
             </div>
             <a href="#portfolio">
               <img src="assets/down-arrow.png" alt="" />
