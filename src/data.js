@@ -31,6 +31,8 @@ export const featuredPortfolio = [
       id: 2,
       title: "AmazonWebShop App",
       img:"./assets/amazonClone.png",
+      link: "https://amazon-clone-osman.netlify.app"
+      
     },
     {
       id: 3,

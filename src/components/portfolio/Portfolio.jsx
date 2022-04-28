@@ -15,6 +15,7 @@ export default function Portfolio() {
     {
         id: "featured",
         title: "Featured",
+        
     },
     {
         id: "web",
@@ -53,17 +54,20 @@ useEffect(()=>{
               title={item.title} 
               active={selected === item.id} 
               setSelected={setSelected}
-              id={item.id} />
+              id={item.id}
+               />
           ))}
         </ul>
         <div className="container">
             {data.map((d)=> (
-          <div className="item">
-            <img
+          <a href={d.link} target="_blank">
+            <div className="item">
+           <img
             src={d.img}
             alt="" />
             <h3>{d.title}</h3>
-          </div>
+           </div>
+          </a>
           ))}
         </div>
       </div>

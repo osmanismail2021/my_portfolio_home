@@ -1,9 +1,12 @@
 @import "../../global.scss";
 
 
+
 .intro {
 
-    background: rgb(130, 130, 134);
+   
+   
+  background: rgb(130, 130, 134);
   background: -moz-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(130, 130, 134)), color-stop(51%, rgb(55, 54, 59)), color-stop(100%,  rgb(11, 11, 12)));
   background: -webkit-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
@@ -19,12 +22,12 @@
     }
 
     .left{
-        flex: 0.5;
+        flex: 0.5; 
         overflow: hidden;
         
 
         .imgContainer{
-            width: 650px;
+            width: 695px;
             height: 100vh;
             // clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
             // background-color: white;
@@ -72,6 +75,9 @@
     .right{
         flex: 0.5;
         position: relative;
+        display: block;
+
+        
         
 
         .wrapper{
@@ -230,8 +236,198 @@
                         }
                                 }
 
+                                // .social-container{
+              
+                                   
+                                //     display: flex;
+                                //     position: relative;
+                                //     width: 700px;
+                                //     height: 80px;
+                                //     justify-content:center;
+                                //     align-items: center;
+                                //     margin-left: -120px;
+                                //     margin-top: 50px;
+                                    
+                                    
+                                    
+                                    
+                                    
+                                
+                                //     &.social {
+                                        
+                                //         transition: transform 250ms;
+                                //         display: flex;
+                                        
+                                //         margin-left: 15px;
+                                //         margin-right: 15px;
+                                //         overflow: hidden;
+                                
+                                //         &.social:hover{
+                                //             transform: translateY(-2px);
+                                //         }
+                                
+                                       
+                                //     }
+                                
+                                    
+                                
+                                //     .youtube {
+                                //         color: red;
+                                //         margin-left: -500px;
+                                //         margin-right: 10px;
+                                //         overflow: hidden;
+                                //         display: flex;
+                                //         position: relative;
+                                        
+                                //     }
+                                
+                                //     .facebook{
+                                //         color: rgb(67, 126, 236);
+                                //         margin-left: 10px;
+                                //         margin-right: 10px;
+                                //         overflow: hidden;
+                                //         display: flex;
+                                //         position: relative;
+                                //     }
+                                
+                                //     .twitter{
+                                //         color: rgb(38, 147, 236);
+                                //         margin-left: 10px;
+                                //         margin-right: 10px;
+                                //         overflow: hidden;
+                                //         display: flex;
+                                //         position: relative;
+                                //     }
+                                
+                                //     .instagram{
+                                //         color: rgb(127, 28, 184);
+                                //         margin-left: 10px;
+                                //         margin-right: 10px;
+                                //         overflow: hidden;
+                                //         display: flex;
+                                //         position: relative;
+                                //     }
+                                
+                                //     .github{
+                                //         color: rgb(19, 22, 211);
+                                //         margin-left: 10px;
+                                //         margin-right: 10px;
+                                //         overflow: hidden;
+                                //         display: flex;
+                                //         position: relative;
+                                //     }
+                                
+                                //     .whatsapp{
+                                //         color: rgb(38, 219, 32);
+                                //         margin-left: 10px;
+                                //         margin-right: 10px;
+                                //         overflow: hidden;
+                                //         display: flex;
+                                //         position: relative;
+                                //     }
+                        
+                                //     .phone{
+                                //       color: rgb(230, 91, 27);
+                                //       margin-left: 10px;
+                                //       margin-right: 10px;
+                                //       overflow: hidden;
+                                //       display: flex;
+                                //         position: relative;
+                                //   }
+                        
+                                //   .email{
+                                //     color: rgb(68, 40, 134);
+                                //     margin-left: 10px;
+                                //     margin-right: 10px;
+                                //     overflow: hidden;
+                                //     display: flex;
+                                //         position: relative;
+                                // }
+                                
+                                    
+                                
+                                    
+                                // }
+
+
+                                ul{
+                                    position: absolute;
+                                    top: 80%; left: -230px;  width: 100%;   text-align: center;
+                                    transform: translate(0,-50%);
+                                    
+
+                                    li{
+                                        display: inline-block;
+                                        list-style: none;
+                                        margin-right: -30px;
+                                        // width: 250px;
+                                        // height: 50px;
+
+                                        a{
+                                            position: relative;
+                                            display: inline-block;
+                                            width: 40px;   height: 40px;   text-align: center;
+                                            border-radius: 30%;
+                                            background: #fff;  color: rgb(136, 126, 126);
+                                            text-decoration: none;
+                                            font-size: 17px;
+                                            box-shadow: inset 0 0 40px rgba(27, 26, 26, 0.2),0 30px 25px rgba(17, 17, 17, 0.3);
+                                            border: 5px solid #ffffff;
+                                            transition: .9s;
+                                            margin: 10px;
+                                            margin-right: 40px;
+                                            overflow: hidden;
+                                        }
+
+                                        .social{
+                                            line-height: 53px;
+                                            margin-left: 0px;
+                                        }
+
+                                        &:hover a{
+                                            box-shadow: inset 0 0 40px rgba(0,0,0,.2),0 5px 30px rgba(12, 12, 12, 0.5);
+                                        }
+
+                                        &:hover:nth-child(1) a{
+                                            color: #e6402a;
+                                        }
+
+                                        &:hover:nth-child(2) a{
+                                            color: #539cd3;
+                                        }
+
+                                        &:hover:nth-child(3) a{
+                                            color: #0e0d0d;
+                                        }
+
+                                        &:hover:nth-child(4) a{
+                                            color: #4e00b5;
+                                        }
+
+                                        &:hover:nth-child(5) a{
+                                            color: #00AFF0;
+                                        }
+
+                                        &:hover:nth-child(6) a{
+                                            color: #00f00c;
+                                        }
+
+                                        &:hover:nth-child(7) a{
+                                            color: #0024f0;
+                                        }
+
+                                        &:hover:nth-child(8) a{
+                                            color: #215a0b;
+                                        }
+                                    }
+                                 }
+
+                               
+
+                               
+
                                 .cv{
-                                    margin-bottom: 180px;
+                                    margin-bottom: 30px;
                                     padding: 5px ;
                                     color: white;
                                     background-color: #0c0905;
@@ -252,6 +448,10 @@
                                 }
         
                             }
+
+                            
+
+                           
         a{
             position:absolute;
             bottom: 10px;
@@ -270,11 +470,18 @@
                
             }
 
+            
+
+            
+
             @keyframes arrowBlink {
                 100%{
                     opacity: 0;
                 }
             }
-        }  
+        } 
+
+       
     }
 }
+

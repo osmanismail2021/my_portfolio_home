@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./contact.scss"
+import {Person,Mail} from "@material-ui/icons"
 
 export default function Contact() {
   const [message,setMessage] = useState(false)
@@ -22,6 +23,15 @@ export default function Contact() {
           <button type="submit">Send</button>
           {message && <span>Thanks, I'll reply ASAP</span>}
         </form>
+
+        <div className="itemContainer">
+            <Person className="icon" />
+            <span>+32 492 07 56 63</span>
+          </div>
+          <div className="itemContainer">
+            <Mail className="icon" />
+            <span>osman@ism@live.nl</span>
+          </div>
       </div>
 
       <div className="right">

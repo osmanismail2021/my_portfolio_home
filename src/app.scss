@@ -1,5 +1,6 @@
 .app {
     height: 100vh;
+    z-index: 1;
 
     .sections {
         width: 100%;
@@ -19,6 +20,10 @@
             scroll-snap-align: start;
             }
         
+    }
+
+    .footer{
+        height: 100vh;
     }
 }
 
