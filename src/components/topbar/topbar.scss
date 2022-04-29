@@ -3,33 +3,19 @@
 //rgba(206,188,155,1)
 // rgba(85,63,50,1)
 //rgba(42,31,25,1)
+ 
+
 
 .topbar {
     width: 100%;
     height: 75px;
-    // background-color: #e0ded9;
-    // opacity: 1;
-    // background-image: radial-gradient(circle at center center, #000003, #e0ded9), repeating-radial-gradient(circle at center center, #000003, #000003, 18px, transparent 36px, transparent 18px);
-    // background-blend-mode: multiply;
-    background-color: #ffffff;
-    opacity: 1;
-    background-image: radial-gradient(circle at center center, #000000, #ffffff), repeating-radial-gradient(circle at center center, #000000, #000000, 11px, transparent 22px, transparent 11px);
-    background-blend-mode: multiply;
-    
-  //   background: rgb(130, 130, 134);
-  // background: -moz-linear-gradient(-45deg, rgb(11, 11, 12) 0%, rgb(55, 54, 59) 51%, rgb(130, 130, 134) 100%);
-  // background: -webkit-gradient(left top, right bottom, color-stop(0%,rgb(11, 11, 12)), color-stop(51%, rgb(55, 54, 59)), color-stop(100%,  rgb(130, 130, 134)));
-  // background: -webkit-linear-gradient(-45deg, rgb(11, 11, 12) 0%, rgb(55, 54, 59) 51%, rgb(130, 130, 134) 100%);
-  // background: -o-linear-gradient(-45deg,rgb(11, 11, 12) 0%, rgb(55, 54, 59) 51%, rgb(130, 130, 134) 100%);
-  // background: -ms-linear-gradient(-45deg, rgb(11, 11, 12) 0%,rgb(55, 54, 59) 51%,  rgb(130, 130, 134) 100%);
-  // background: linear-gradient(135deg, rgb(11, 11, 12) 0%,rgb(55, 54, 59) 51%,  rgb(130, 130, 134) 100%);
-  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=1 );
     color: white;
     position: fixed;
-    top: 0;
-    z-index: 3;
+     top: 0;
+     left: 0;
+     z-index: 3 ;
     transition: all 1s ease;
-    overflow: hidden;
+    overflow: hidden !important;
 
     .stage {
         height: 60px;
@@ -180,47 +166,43 @@
           
           
       }
-      
+
+    
       
 
     .wrapper {
-        padding: 10px 30px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        .left {
-            display: flex;
-            align-items: center;
-            margin-left: -10px;
-
-            
-
-            
-
-            
+   
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+      align-items:center ;
+      justify-content: space-between;
+      }
             .logo {
               font-size: 40px;
               font-weight: 800;
               text-decoration: none;
               color: inherit;
-              margin-left: 885px;
+              margin-left: 8px;
           }
-        }
+        
 
-        .right {
-
+        
+ 
+        
             .hamburger {
                 width: 32px;
                 height: 25px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                margin-right: 20px;
                 cursor: pointer;
+                
 
                 border: solid 2px;
                 padding: 10px;
-                background-color: #000003;
                 border-radius: 5px;
 
                 span {
@@ -229,19 +211,28 @@
                     background-color: rgb(240, 236, 231);
                     transform-origin: left;
                     transition: all 2s ease;
+                    
                 }
             }
-        }
-    }
+      
+    
 
     &.active {
-        background-color: $mainColor;
+        
+        background: rgb(130, 130, 134);
+  background: -moz-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(130, 130, 134)), color-stop(51%, rgb(55, 54, 59)), color-stop(100%,  rgb(11, 11, 12)));
+  background: -webkit-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: -o-linear-gradient(-45deg,rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: -ms-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: linear-gradient(135deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=1 );
         color: white;
 
         .hamburger {
             span {
                 &:first-child {
-                    background-color: white;
+                    background-color: rgb(249, 246, 246);
                     transform: rotate(45deg);
                 }
 

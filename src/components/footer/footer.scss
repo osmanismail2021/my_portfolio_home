@@ -2,27 +2,54 @@
 
 
 .footer{
-    width: 100%;
-    height: 50px !important;
-    background-color: black;
+  
+    background: rgb(130, 130, 134) ;
+
+
+  background: -moz-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(130, 130, 134)), color-stop(51%, rgb(55, 54, 59)), color-stop(100%,  rgb(11, 11, 12)));
+  background: -webkit-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: -o-linear-gradient(-45deg,rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: -ms-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%,  rgb(11, 11, 12) 100%);
+  background: linear-gradient(135deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=1 );
+    
+
+    
     display: flex;
-    
-    
-    
-    
-    overflow: hidden;
-    bottom: 0;
+
+    margin-top: 5px;
     justify-content: center;
-    align-items: center;
+    height: 200px !important;
+    position: absolute;
     bottom: 0;
+    width: 100%;
+    overflow: hidden  !important;
+    
 
     a{
-        color: antiquewhite;
+        color: rgb(132, 130, 127);
         justify-content: space-between;
         text-decoration: none;
-        margin: 20px;
+        margin: 30px;
+        font-size: larger;
+        
+        &:hover {
+            font-weight: 800;
+        }
+        
         
 
+    }
+
+   
+
+    p{
+        position: absolute;
+        margin-top: 180px;
+        color: rgb(134, 132, 130);
+        font-family: 'Times New Roman', Times, serif;
     }
     
 

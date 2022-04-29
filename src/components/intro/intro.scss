@@ -4,7 +4,7 @@
 
 .intro {
 
-   
+
    
   background: rgb(130, 130, 134);
   background: -moz-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
@@ -15,6 +15,7 @@
   background: linear-gradient(135deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebc9b', endColorstr='#2a1f19', GradientType=1 );
     display: flex;
+    position: relative;
 
     @include mobile{
         flex-direction: column;
@@ -27,14 +28,17 @@
         
 
         .imgContainer{
-            width: 695px;
+            width: 745px;
             height: 100vh;
             // clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
             // background-color: white;
             display: flex;
             align-items: flex-end;
             margin-left: -20px;
-            margin-top: -12px;
+            //margin-top: -30px;
+            margin-bottom: 0;
+            
+            
             
 
             @include mobile{
@@ -59,9 +63,9 @@
             .osman{
                 z-index: 1;
                 position: relative;
-                width: 95%;
+                width: 100%;
                 margin-left: 20px;
-                margin-bottom: 40px;
+                margin-bottom: 0px;
 
                 @include mobile{
                     width: 50%;
@@ -82,7 +86,7 @@
 
         .wrapper{
             width: 100%;
-            height: 100%;
+            height: 85%;
             padding-left: 100px;
             display: flex;
             flex-direction: column;
@@ -236,123 +240,10 @@
                         }
                                 }
 
-                                // .social-container{
-              
-                                   
-                                //     display: flex;
-                                //     position: relative;
-                                //     width: 700px;
-                                //     height: 80px;
-                                //     justify-content:center;
-                                //     align-items: center;
-                                //     margin-left: -120px;
-                                //     margin-top: 50px;
-                                    
-                                    
-                                    
-                                    
-                                    
-                                
-                                //     &.social {
-                                        
-                                //         transition: transform 250ms;
-                                //         display: flex;
-                                        
-                                //         margin-left: 15px;
-                                //         margin-right: 15px;
-                                //         overflow: hidden;
-                                
-                                //         &.social:hover{
-                                //             transform: translateY(-2px);
-                                //         }
-                                
-                                       
-                                //     }
-                                
-                                    
-                                
-                                //     .youtube {
-                                //         color: red;
-                                //         margin-left: -500px;
-                                //         margin-right: 10px;
-                                //         overflow: hidden;
-                                //         display: flex;
-                                //         position: relative;
-                                        
-                                //     }
-                                
-                                //     .facebook{
-                                //         color: rgb(67, 126, 236);
-                                //         margin-left: 10px;
-                                //         margin-right: 10px;
-                                //         overflow: hidden;
-                                //         display: flex;
-                                //         position: relative;
-                                //     }
-                                
-                                //     .twitter{
-                                //         color: rgb(38, 147, 236);
-                                //         margin-left: 10px;
-                                //         margin-right: 10px;
-                                //         overflow: hidden;
-                                //         display: flex;
-                                //         position: relative;
-                                //     }
-                                
-                                //     .instagram{
-                                //         color: rgb(127, 28, 184);
-                                //         margin-left: 10px;
-                                //         margin-right: 10px;
-                                //         overflow: hidden;
-                                //         display: flex;
-                                //         position: relative;
-                                //     }
-                                
-                                //     .github{
-                                //         color: rgb(19, 22, 211);
-                                //         margin-left: 10px;
-                                //         margin-right: 10px;
-                                //         overflow: hidden;
-                                //         display: flex;
-                                //         position: relative;
-                                //     }
-                                
-                                //     .whatsapp{
-                                //         color: rgb(38, 219, 32);
-                                //         margin-left: 10px;
-                                //         margin-right: 10px;
-                                //         overflow: hidden;
-                                //         display: flex;
-                                //         position: relative;
-                                //     }
-                        
-                                //     .phone{
-                                //       color: rgb(230, 91, 27);
-                                //       margin-left: 10px;
-                                //       margin-right: 10px;
-                                //       overflow: hidden;
-                                //       display: flex;
-                                //         position: relative;
-                                //   }
-                        
-                                //   .email{
-                                //     color: rgb(68, 40, 134);
-                                //     margin-left: 10px;
-                                //     margin-right: 10px;
-                                //     overflow: hidden;
-                                //     display: flex;
-                                //         position: relative;
-                                // }
-                                
-                                    
-                                
-                                    
-                                // }
-
 
                                 ul{
                                     position: absolute;
-                                    top: 80%; left: -230px;  width: 100%;   text-align: center;
+                                    top: 70%; left: -230px;  width: 100%;   text-align: center;
                                     transform: translate(0,-50%);
                                     
 
@@ -368,11 +259,11 @@
                                             display: inline-block;
                                             width: 40px;   height: 40px;   text-align: center;
                                             border-radius: 30%;
-                                            background: #fff;  color: rgb(136, 126, 126);
+                                            background: rgba(255, 255, 255, 0.11);  color: rgb(218, 207, 207);
                                             text-decoration: none;
                                             font-size: 17px;
                                             box-shadow: inset 0 0 40px rgba(27, 26, 26, 0.2),0 30px 25px rgba(17, 17, 17, 0.3);
-                                            border: 5px solid #ffffff;
+                                            border: 5px solid #6e6b6b;
                                             transition: .9s;
                                             margin: 10px;
                                             margin-right: 40px;
@@ -427,7 +318,7 @@
                                
 
                                 .cv{
-                                    margin-bottom: 30px;
+                                    margin-bottom: 70px;
                                     padding: 5px ;
                                     color: white;
                                     background-color: #0c0905;

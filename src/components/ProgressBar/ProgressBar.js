@@ -4,7 +4,7 @@ import "./progressBar.scss"
 
 export default function ProgressBar() {
     return(
-        <div className="skills">
+        <div className="skills" id="progressbar">
 
             <h2>Education & Skills</h2>
 
@@ -44,14 +44,6 @@ export default function ProgressBar() {
 
             <div className="skill">
                 <div className="react">REACT</div>
-            </div>
-
-            <div className="skill">
-                <div className="react-native">REACT NATIVE</div>
-            </div>
-
-            <div className="skill">
-                <div className="nodeJs">NODE.JS</div>
             </div>
 
             <div className="skill">

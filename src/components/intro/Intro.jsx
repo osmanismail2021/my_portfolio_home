@@ -1,4 +1,7 @@
 import "./intro.scss"
+import Topbar from "../topbar/Topbar";
+import { useState } from "react";
+import Menu from "../menu/Menu";
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
 import cv from '../assets/OSMAN ISMAIL (9).pdf'
@@ -16,6 +19,7 @@ import { faSquarePhone, faEnvelopesBulk } from "@fortawesome/free-solid-svg-icon
 
 export default function Intro() {
   const textRef = useRef();
+  const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(()=>{
     init(textRef.current, {
@@ -27,6 +31,9 @@ export default function Intro() {
 
   return (
     <div className='intro' id="intro">
+
+<Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+<Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
 
         <div className="left">
@@ -48,34 +55,6 @@ export default function Intro() {
           </div>
               <h1 id="text3d">I'm Osman ISMAIL</h1>
               <h3>FrontEnd Developer <span className="neon" ref={textRef}></span></h3>
-
-              {/* <div className="social-container">
-            
-            <a href="#" className="youtube social">
-                <FontAwesomeIcon icon={faYoutube} size="2x" />
-            </a>
-            <a href="#" className="facebook social">
-                <FontAwesomeIcon icon={faFacebook} size="2x" />
-            </a>
-            <a href="#" className="github social">
-                <FontAwesomeIcon icon={faGithub} size="2x" />
-            </a>
-            <a href="#" className="instagram social">
-                <FontAwesomeIcon icon={faInstagram} size="2x" />
-            </a>
-            <a href="#" className="twitter social">
-                <FontAwesomeIcon icon={faTwitter} size="2x" />
-            </a>
-            <a href="#" className="whatsapp social">
-                <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-            </a>
-            <a href="#" className="phone social">
-                <FontAwesomeIcon icon={faSquarePhone} size="2x" />
-            </a>
-            <a href="#" className="email social">
-                <FontAwesomeIcon icon={faEnvelopesBulk} size="2x" />
-            </a>
-        </div> */}
 
 
 
