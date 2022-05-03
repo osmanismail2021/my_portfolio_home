@@ -13,8 +13,8 @@ import { faRss } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured");
-  const [data, setData] = useState([]);
+  const [selected, setSelected] = useState("web");
+const [data, setData] = useState([]);
   const list = [
     {
         id: "web",
@@ -44,7 +44,12 @@ useEffect(()=>{
 
   return (
     <div className='portfolio' id="portfolio">
-        <h1>Portfolio</h1>
+        <div className="dikeyNav">
+          <p>Portfolio</p>
+          
+        </div>
+        <div className="second">
+        
         <ul>
           {list.map((item) => (
             <PortfolioList 
@@ -80,6 +85,8 @@ useEffect(()=>{
         
           ))}
         </div>
+        </div>
+       
       </div>
   )
 }

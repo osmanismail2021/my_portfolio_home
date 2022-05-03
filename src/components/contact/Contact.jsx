@@ -19,6 +19,9 @@ export default function Contact() {
      
 
     <div className="contact-form">
+      <div className="dikeyNav">
+          <p>Contact</p>
+      </div>
     <div className="left">
         <h2>@ Contact</h2>
         <form onSubmit={handleSubmit}>

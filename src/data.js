@@ -22,6 +22,8 @@ export const webPortfolio = [
       github:"https://github.com/osmanismail2021/newspaper-master.git"
     },
     
+
+    
   ];
   
   export const mobilePortfolio = [

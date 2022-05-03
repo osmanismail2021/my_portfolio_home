@@ -112,7 +112,7 @@ export default function Intro() {
 
             
 
-            <a href="#portfolio">
+            <a href="#contact">
               <img src="assets/down-arrow.png" alt="" />
             </a>
 

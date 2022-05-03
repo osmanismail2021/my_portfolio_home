@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Arimo:ital,wght@1,500&family=Exo:wght@200;300&family=Fredoka:wght@300;400;500;600;700&display=swap');
+
 .contact {
     background: rgb(130, 130, 134);
   background: -moz-linear-gradient(-45deg, rgb(130, 130, 134) 0%, rgb(55, 54, 59) 51%, rgb(11, 11, 12) 100%);
@@ -16,6 +18,34 @@
         display: flex;
         max-height: calc(100vh - 80px);
     }
+
+    .dikeyNav{
+        
+        width: 120px;
+        height: 77%;
+        margin-top: 30px !important;
+        margin: 20px;
+        background-color: black;
+        opacity: 0.2;
+        border-radius: 10px;
+        z-index: 1;
+        
+        
+
+        p{
+            color: antiquewhite;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: xx-large;
+            margin-top: 170px;
+            font-family: 'Exo', sans-serif;
+            
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        
+    }
     
 
 
@@ -30,7 +60,8 @@
         h2{
             font-size: 60px;
             margin-top: 60px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: 'Exo', sans-serif;
+            color: #E04D01;
         }
 
         form{
@@ -45,7 +76,8 @@
             input{
                 width: 450px;
                 height: 30px;
-                
+                font-family: 'Exo', sans-serif;
+                font-weight: bold;
                 font-size: 14px;
                 border-radius: 10px;
                 border: solid 4px black;
@@ -58,6 +90,8 @@
                 font-size: 14px;
                 border-radius: 10px;
                 border: solid 4px black;
+                font-family: 'Exo', sans-serif;
+                font-weight: bold;
                 
             }
 
@@ -65,10 +99,12 @@
                 width: 150px;
                 height: 30px;
                 color: white;
-                background-color: rgb(34, 99, 196);
+                background-color: #E04D01;
                 border: solid 2px white;
                 border-radius: 10px;
                 font-weight: 500;
+                font-family: 'Exo', sans-serif;
+                font-weight: bold;
                 cursor: pointer;
             }
         }
