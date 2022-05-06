@@ -24,6 +24,7 @@
         background-color: black;
         opacity: 0.2;
         border-radius: 10px;
+        border: 3px ridge  white;
         
         
 
@@ -34,6 +35,7 @@
             font-size: xx-large;
             margin-top: 250px;
             font-family: 'Exo', sans-serif;
+           
             
             margin-left: auto;
             margin-right: auto;
@@ -71,12 +73,28 @@
             writing-mode: vertical-rl;
             text-orientation: upright;
             
+            
 
             li{
                 margin-bottom: 50px;
                 margin-top: 50px;
                 font-family: 'Exo', sans-serif;
                 font-weight: bold;
+
+                &:hover{
+                    font-weight: 600;
+                    font-family: 'Exo', sans-serif;
+                    background-color: black;
+                    opacity: 0.5;
+                    width: auto;
+                    border: 3px ridge #FF7700 ;
+                    
+                    text-align: center;
+                    border-radius: 10px;
+                    color: #FF7700;
+                    padding: 5px;
+                }
+                
             }
             
         }
@@ -111,13 +129,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
+            color: #FF7700;
             position: relative;
             transition: all .5s ease;
             cursor: pointer;
             z-index: 1;
             
             align-items: flex-end;
+            border: 4px ridge  #FF7700;
             
             
     
@@ -143,7 +162,7 @@
                 margin-left: -330px;
                 bottom: 40px;
                 border-radius: 15px;
-                border: none;
+                border: 3px ridge #FF7700;
                 display: flex;
                 align-items: center;
                 gap: 5px;
@@ -165,7 +184,7 @@
                 right: 30px;
                 bottom: 40px;
                 border-radius: 15px;
-                border: none;
+                border: 3px ridge #FF7700;
                 display: flex;
                 align-items: center;
                 gap: 5px;

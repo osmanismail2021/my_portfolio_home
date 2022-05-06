@@ -18,7 +18,7 @@ export const webPortfolio = [
       id: 3,
       title: "News App",
       img:"./assets/newsApp.png",
-      link:"https://newsapp-osman.netlify.app",
+      link:"https://osmannews.netlify.app",
       github:"https://github.com/osmanismail2021/newspaper-master.git"
     },
     

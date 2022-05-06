@@ -29,6 +29,7 @@
         opacity: 0.2;
         border-radius: 10px;
         z-index: 1;
+        border: 3px ridge  white;
         
         
 
@@ -61,7 +62,7 @@
             font-size: 60px;
             margin-top: 60px;
             font-family: 'Exo', sans-serif;
-            color: #E04D01;
+            color: #FF7700;
         }
 
         form{
@@ -80,7 +81,7 @@
                 font-weight: bold;
                 font-size: 14px;
                 border-radius: 10px;
-                border: solid 4px black;
+                border: 3px ridge  #FF7700;
             }
 
             textarea{
@@ -89,7 +90,7 @@
                 margin: -100px 20px;
                 font-size: 14px;
                 border-radius: 10px;
-                border: solid 4px black;
+                border: 3px ridge  #FF7700;
                 font-family: 'Exo', sans-serif;
                 font-weight: bold;
                 
@@ -99,13 +100,22 @@
                 width: 150px;
                 height: 30px;
                 color: white;
-                background-color: #E04D01;
-                border: solid 2px white;
+                background-color: black;
+                border: 3px ridge  #FF7700;
                 border-radius: 10px;
                 font-weight: 500;
                 font-family: 'Exo', sans-serif;
                 font-weight: bold;
                 cursor: pointer;
+            }
+
+            .thnx{
+                border: none;
+                width: auto;
+                opacity: 1;
+                color: #4184f0;
+                box-shadow: 10px white;
+                font-size: larger;
             }
         }
         
@@ -130,6 +140,12 @@
             
 
         }
+
+        
+
+        
+
+
     }
 }
 
