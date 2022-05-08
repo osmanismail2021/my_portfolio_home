@@ -19,7 +19,7 @@
 
     .dikeyNav{
         width: 120px;
-        height: 92%;
+        height: 91%;
         margin-bottom: -45px !important;
         margin-top: auto;
         margin: 20px;
@@ -27,6 +27,10 @@
         opacity: 0.2;
         border-radius: 10px;
         border: 3px ridge  white;
+
+        @include mobile{
+            width: 50px;
+        }
 
         
 
@@ -72,7 +76,8 @@
             background-color: rgb(48, 45, 45);
 
             @include mobile{
-                height: 160px;
+                width: 220px;
+                height: 600px;
             }
 
             
@@ -113,12 +118,16 @@
                         
                     // }
                     &.user{
-                        height: 280px;
-                        width: 280px;
+                        height: 220px;
+                        width: 300px;
                         border-radius: 20%;
                         object-fit: cover;
                         margin: 0 30px;
-                        
+
+                        @include mobile{
+                            width: 130px;
+                            height: 130px;
+                        }
                     }
                 }
             }
@@ -127,6 +136,11 @@
                 padding: 10px;
                 background-color:#FF7700;
                 border-radius: 10px;
+                font-family: 'Exo', sans-serif;
+
+                @include mobile{
+                    height: 375px;
+                }
             }
 
             .bottom{
@@ -136,7 +150,7 @@
                 flex-direction: column;
 
                 h3{
-
+                    font-family: 'Exo', sans-serif;
                 }
             }
         }

@@ -18,13 +18,18 @@
     .dikeyNav{
         
         width: 120px;
-        height: 92%;
+        height: 91%;
         margin: 20px;
         margin-top: 85px !important;
         background-color: black;
         opacity: 0.2;
         border-radius: 10px;
         border: 3px ridge  white;
+
+        @include mobile{
+            width: 50px;
+            
+        }
         
         
 
@@ -35,10 +40,12 @@
             font-size: xx-large;
             margin-top: 250px;
             font-family: 'Exo', sans-serif;
-           
-            
             margin-left: auto;
             margin-right: auto;
+            
+            @include mobile{
+                font-size: x-large;
+            }
 
         }
         
@@ -51,6 +58,10 @@
         align-items: center;
         width: 100%;
         height: 100%;
+
+        @include mobile{
+            
+        }
         
         h1{
             font-size: 50px;
@@ -72,6 +83,12 @@
             display: flex;
             writing-mode: vertical-rl;
             text-orientation: upright;
+            justify-content: center;
+            align-items: center;
+
+            @include mobile{
+                margin-left: -5px;
+            }
             
             
 
@@ -142,7 +159,7 @@
     
             @include mobile{
                 width: 220px;
-                height: 140px;
+                height: 180px;
     
             }
     

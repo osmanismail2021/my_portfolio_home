@@ -1,3 +1,4 @@
+@import "../src/global.scss";
 .app {
     height: 100vh;
     z-index: 1;
@@ -36,6 +37,11 @@ ul#socialIcons{
     top: 65%; left: -10px;  width: 100%;   text-align: center;
     transform: translate(0,-50%);
 
+    @include mobile{
+        
+        
+    }
+
     .itemContainer {
         display: flex;
         align-items: center;
@@ -71,6 +77,10 @@ ul#socialIcons{
         position: relative;
         list-style: none;
         margin-bottom: 30px;
+
+        @include mobile{
+            flex-direction: column;
+        }
         
        
         // width: 250px;
@@ -91,11 +101,24 @@ ul#socialIcons{
             margin-right: 40px;
             overflow: hidden;
             padding: 5px;
+
+            @include mobile{
+                width: 20px; height: 20px; text-align: center;
+                margin: 5px 10px 5px 10px;
+                font-size: 10px;
+            }
+
+            
         }
 
         .social{
             line-height: 40px;
             margin-left: 1px;
+
+            @include mobile{
+                line-height: 20px;
+                margin-left: 0px;
+            }
         }
 
         &:hover a{
