@@ -185,12 +185,23 @@
                 display: flex;
                 align-items: center;
                 gap: 5px;
+
+                @include mobile{
+                    width: 85px;
+                    height: 35px;
+                    right: 15px;
+                    justify-content: space-around;
+                }
                 
     
                 &:hover{
                     background-color: rgb(161, 148, 148);
                     font-size:medium;
                     cursor: pointer;
+
+                    @include mobile{
+                        font-size: xx-small;
+                    }
                 }
             }
     
@@ -207,6 +218,12 @@
                 display: flex;
                 align-items: center;
                 gap: 5px;
+
+                @include mobile{
+                    width: 85px;
+                    height: 35px;
+                    right: 70px;
+                }
                 
                 
     

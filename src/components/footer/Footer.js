@@ -25,7 +25,7 @@ export default function Footer() {
         
 
         <ul id="socialIcons">
-        <div className="itemContainer">
+        <div className="itemContainer" id="tel">
             <Person className="icon" />
             <span>+32 492 07 56 63</span>
           </div>
@@ -60,7 +60,7 @@ export default function Footer() {
             </a>
           </li>
 
-          <div className="itemContainer">
+          <div className="itemContainer" id="mail">
             <Mail className="icon" />
             <span>osman@ism@live.nl</span>
           </div>

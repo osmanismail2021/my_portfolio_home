@@ -33,13 +33,43 @@ ul#socialIcons{
     flex-direction: row;
     position: absolute;
     justify-content: center;
+    align-items: center;
+    
     
     top: 65%; left: -10px;  width: 100%;   text-align: center;
     transform: translate(0,-50%);
 
     @include mobile{
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+        align-items: center;
+        padding-top: 0;
+        margin-top: -20px;
+        justify-content: space-around;
+        left: -30px;
         
         
+    }
+
+    #tel{
+
+        @include mobile {
+            display: flex;
+            flex-direction: row;
+            margin-top: -70px;
+            padding-bottom: 20px;
+        }
+        
+    }
+
+    #mail{
+        
+        @include mobile{
+            display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        }
     }
 
     .itemContainer {
@@ -51,6 +81,14 @@ ul#socialIcons{
         
         color: #999393;
         margin-top: -10px;
+
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            position:absolute;
+            justify-content: space-around;
+            align-items: center;
+        }
         
 
         

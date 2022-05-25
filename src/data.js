@@ -31,7 +31,7 @@ export const webPortfolio = [
       id: 1,
       title: "Weather App",
       img: "./assets/weatherAppReactNative.png",
-      link:"https://weatherapp-reactnative.netlify.app",
+      link:"https://weatherapp-reactnatives.netlify.app/",
       github:"https://github.com/osmanismail2021/reactNative_weatherApp.git"
     },
   ];
